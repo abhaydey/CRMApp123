@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="7" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="29414" started-at="2025-02-05T22:10:09 IST" finished-at="2025-02-05T22:10:38 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="29414" started-at="2025-02-05T22:10:09 IST" finished-at="2025-02-05T22:10:38 IST">
+      <class name="testclasses.GoogleCreateAccountTest">
+        <test-method status="PASS" signature="passDriverObject()[pri:0, instance:testclasses.GoogleCreateAccountTest@7ce6a65d]" name="passDriverObject" is-config="true" duration-ms="2015" started-at="2025-02-05T22:10:18 IST" finished-at="2025-02-05T22:10:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passDriverObject -->
+        <test-method status="PASS" signature="TC001_enterName(java.lang.String, java.lang.String)[pri:0, instance:testclasses.GoogleCreateAccountTest@7ce6a65d]" name="TC001_enterName" duration-ms="2340" started-at="2025-02-05T22:10:21 IST" data-provider="SignUpData" finished-at="2025-02-05T22:10:23 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Aryan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Khan]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC001_enterName -->
+      </class> <!-- testclasses.GoogleCreateAccountTest -->
+      <class name="testclasses.GoogleSignUpTest">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:testclasses.GoogleSignUpTest@4abdb505]" name="launchBrowser" is-config="true" duration-ms="12179" started-at="2025-02-05T22:09:57 IST" finished-at="2025-02-05T22:10:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="passDriverObject()[pri:0, instance:testclasses.GoogleSignUpTest@4abdb505]" name="passDriverObject" is-config="true" duration-ms="2029" started-at="2025-02-05T22:10:09 IST" finished-at="2025-02-05T22:10:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passDriverObject -->
+        <test-method status="PASS" signature="TC001_createAccount()[pri:0, instance:testclasses.GoogleSignUpTest@4abdb505]" name="TC001_createAccount" duration-ms="6800" started-at="2025-02-05T22:10:11 IST" finished-at="2025-02-05T22:10:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC001_createAccount -->
+      </class> <!-- testclasses.GoogleSignUpTest -->
+      <class name="testclasses.BasicInformationTest">
+        <test-method status="PASS" signature="passDriverObject()[pri:0, instance:testclasses.BasicInformationTest@1500955a]" name="passDriverObject" is-config="true" duration-ms="2008" started-at="2025-02-05T22:10:23 IST" finished-at="2025-02-05T22:10:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passDriverObject -->
+        <test-method status="PASS" signature="TC001_selectdob()[pri:0, instance:testclasses.BasicInformationTest@1500955a]" name="TC001_selectdob" duration-ms="8903" started-at="2025-02-05T22:10:25 IST" finished-at="2025-02-05T22:10:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC001_selectdob -->
+      </class> <!-- testclasses.BasicInformationTest -->
+      <class name="testclasses.CreatePasscodeTest">
+        <test-method status="PASS" signature="passDriverObject()[pri:0, instance:testclasses.CreatePasscodeTest@e874448]" name="passDriverObject" is-config="true" duration-ms="2008" started-at="2025-02-05T22:10:34 IST" finished-at="2025-02-05T22:10:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passDriverObject -->
+        <test-method status="PASS" signature="TC001_enterPasscode(java.lang.String, java.lang.String)[pri:0, instance:testclasses.CreatePasscodeTest@e874448]" name="TC001_enterPasscode" duration-ms="2313" started-at="2025-02-05T22:10:36 IST" data-provider="passcodeData" finished-at="2025-02-05T22:10:38 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[arykhanone]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[arykhanone]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC001_enterPasscode -->
+      </class> <!-- testclasses.CreatePasscodeTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
